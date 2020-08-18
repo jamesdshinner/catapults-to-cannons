@@ -1,0 +1,30 @@
+body {
+  background-image: url("../media/images/index/background.jpg");
+  background-size: 100vw;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+div#titles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200vw;
+  padding-bottom: 0%;
+  
+}
+
+div#wrapper {
+  position: absolute;
+  background-color: white;
+  top: 200vw;
+  left: 0;
+  width: 100%;
+}
+
+div#bodyindex {
+  position: relative;
+  left: 25vw;
+  width: 50vw;
+}

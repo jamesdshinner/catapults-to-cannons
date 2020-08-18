@@ -1,0 +1,15 @@
+div#mathsboxes {
+  position: absolute;
+  left: 100%;
+  width: 50%;
+}
+
+.mathsSUVAT {
+  margin-bottom: 5vw;
+  height: 2.5vw;
+  border: 0.2vw solid black;
+  border-left: 0.3vw solid black;
+  border-bottom: 0.3vw solid black;
+  overflow: hidden;
+  cursor: pointer;
+}

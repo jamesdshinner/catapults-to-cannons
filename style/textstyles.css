@@ -1,0 +1,43 @@
+body {
+  font-family: 'Open Sans', Arial, san-serif;
+  font-size: 1em;
+  text-align: center;
+}
+h1 {
+  font-size: 8vw;
+  text-shadow: -2px 0 gray, 0 2px gray, 2px 0 gray, 0 -2px gray;
+  color: white;
+  padding-top: 16%;
+}
+
+.figdescription {
+  font-size:0.75em;
+}
+
+h2 {
+  font-size: 8vw;
+  text-shadow: -2px 0 gray, 0 2px gray, 2px 0 gray, 0 -2px gray;
+  color: white;
+  padding-top: 30%
+}
+
+h3 {
+  font-size: 4em;
+}
+
+h4 {
+  font-size: 3em;
+}
+
+h5 {
+  font-size: 2em;
+}
+
+h6 {
+  font-size: 1vw;
+  text-align: center;
+  padding-top: 0%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" />
+<link rel="stylesheet" href="style/pagelayout.css" />
+<link rel="stylesheet" href="style/textstyles.css" />
+<link rel="stylesheet" href="style/catapults.css"/>
+
+<title>Catapults</title>
+
+</head>
+
+<body>
+
+<header>
+<img id='timeline' src="media/images/timeline/Timeline6.png" alt="Timeline"/>
+
+<a href="index.html#introduction" title="Introduction" style="position: absolute; left: 15.95%; top: 3.57%; width: 16.74%; height: 8.73%; z-index: 2;"></a>
+<a href="physics.html" title="Physics" style="position: absolute; left: 34.42%; top: 3.74%; width: 9.65%; height: 9.45%; z-index: 2;"></a>
+<a href="quiz.html" title="Quiz" style="position: absolute; left: 45.7%; top: 4.1%; width: 6.03%; height: 9.63%; z-index: 2;"></a>
+<a href="conclusion.html" title="Conclusion" style="position: absolute; left: 53.25%; top: 4.1%; width: 14.32%; height: 7.66%; z-index: 2;"></a>
+<a href="references.html" title="References" style="position: absolute; left: 69.41%; top: 3.92%; width: 14.69%; height: 8.2%; z-index: 2;"></a>
+<a href="ballistae.html" title="Ballistae" style="position: absolute; left: 0.94%; top: 22.46%; width: 15.22%; height: 77.54%; z-index: 2;"></a>
+<a href="catapults.html" title="Catapults" style="position: absolute; left: 16.37%; top: 22.46%; width: 18.1%; height: 77.54%; z-index: 2;"></a>
+<a href="trebuchets.html" title="Trebuchets" style="position: absolute; left: 34.94%; top: 22.64%; width: 15.27%; height: 77.36%; z-index: 2;"></a>
+<a href="cannon.html" title="Cannon" style="position: absolute; left: 50.63%; top: 22.82%; width: 15.22%; height: 77.01%; z-index: 2;"></a>
+<a href="rocketry.html" title="Rocketry" style="position: absolute; left: 66.05%; top: 22.99%; width: 17.94%; height: 76.83%; z-index: 2;"></a>
+<a href="railguns.html" title="Railguns" style="position: absolute; left: 84.21%; top: 23.17%; width: 15.22%; height: 77.01%; z-index: 2;"></a>
+</header>
+
+<div id='body'>
+
+<h3>Catapults</h3>
+
+<h4>History</h4>
+
+<p>
+Catapults are any ballistic device designed to launch a long ranged projectile, 
+with the damage being caused by impact rather than explosives or other means. 
+The term 'catapult' comes from the ancient Greek words 'katta' meaning downwards
+and 'pallo' meaning hurl.
+</p>
+
+<p>
+While catapult is an all-encompassing term, the traditional catapult design 
+that most people think of is actually referred to as a mangonel or onager.
+With mangonel literally meaning 'engine of war', these machines were invented 
+around 400 BC by the Romans. They were made up of a long wooden arm with a bowl 
+at the end, and would be loaded by lowering a rope with a hook attached to the 
+end. This hook would be connected to a pulling system (pulley compound or gear 
+compound) to lower the arm from a natural 90 degree angle. Doing this stored 
+elastic potential energy in the catapult by way of the tension in the ropes and 
+arm. This tension would be stored in the same way as in a spring. Once lowered, 
+a projectile would be loaded. The release of the arm would transfer the elastic 
+potential energy into kinetic energy that was imparted to the projectile. Some 
+later designs would utilise slings to hold the projectile and additional ways 
+to impart energy such as a counterweight or men providing traction using ropes.
+These ideas would come into the limelight with the invention of the trebuchet.
+</p>
+
+<img src="media/images/catapults/mangonel.jpg" alt="Mangonel" width="424" height="251"/>
+
+<p class='figdescription'>Fig 1: A modern reconstruction of a mangonel.</p>
+
+<p>
+Catapults in their various forms were used effectively as siege weapons from 
+their invention in the 4th century BC up until the late medieval period, when 
+advances in defensive construction rendered them largely ineffective, and the 
+use of gunpowder became more prevalent. However, traditional catapults found 
+use in world war one where they were sometimes used to launch hand grenades 
+into enemy trenches from a distance. As recently as 2011, it was reported that 
+a homemade catapult was used to deliver cannabis from Mexico across the border 
+into the United States. 
+</p>
+
+<h4>Physics</h4>
+
+<p>
+Using the basic spring constant equation:
+</p>
+
+<img src="media/images/catapults/eq6.png" alt="spring constant eq." width="50" height="33" />
+
+<p>
+where <em>U</em> is the potential energy, <em>k</em> is the elastic constant 
+and <em>x</em> is the distance the object is pushed/pulled from its equilibrium 
+position.
+</p>
+
+<p>
+Unlike the ballistae example, the release of energy is not along a linear path, 
+since the movement of the arm makes an arc with radius equal to its length. 
+This means that some of the potential energy is transferred to rotational 
+kinetic energy. The equation for the energy transfer is thus:
+</p>
+
+<img src="media/images/catapults/eq7.png" alt="energy transfer eq." width="55" height="35" />
+
+<p>
+Moment of inertia for this example = &frac13;mr<sup>2</sup>
+</p>
+
+<p>Therefore:</p>
+
+<img src="media/images/catapults/eq8.png" alt="dot product" width="102" height="40" />
+
+<p>Rearranging tells us that:</p>
+
+<img src="media/images/catapults/eq9.png" alt="&omega; eq." width="60" height="43" />
+
+<p>
+This is the angular velocity which is transferred to linear velocity when 
+the arm comes to an abrupt halt (for simplicity we are ignoring other energy 
+losses, for example by friction). The missile continues in the direction of its 
+instantaneous linear velocity at that time.
+</p>
+
+<p>Linear and rotational velocity are related by <em>v=&omega;r</em> and thus 
+we see:
+</p>
+
+<img src="media/images/catapults/eq10.png" alt="v eq." width="66" height="40"/>
+
+<p>
+This would be a horizontal velocity, i.e. the horizontal component of the 
+projectile, whilst the vertical component is zero.
+</p>
+
+<img src="media/images/catapults/diagram1.png" alt="mangonel diagram" width="447" height="265" />
+
+<p class='figdescription'>
+Fig 2: Diagram of projectile being launched parallel to the ground.
+</p>
+
+<p>
+From our earlier examination of projectile motion, we know that the time of 
+flight would then be the time it takes the Earth's gravitational field to 
+accelerate the missile to the ground. This will be given by:
+</p>
+
+<img src="media/images/catapults/eq11.png" alt="time of flight" width="46" height="41" />
+
+<p>and the range <em>d</em> is simply:</p>
+
+<img src="media/images/catapults/eq12.png" alt="range" width="35" height="16" />
+
+<p>
+Another major factor of the success of a projectile is the launch 
+angle. This could be manipulated on a mangonel by placing a block inside it to 
+prevent the arm from reaching 90 degrees. Qualitatively, we can instantly see 
+how this would increase the time of flight, as by giving it an angle, we give 
+it a vertical velocity component (the missile's vertical velocity must be 
+decelerated to 0 by <em>g</em> before it can hit ground).
+</p>
+
+<img src="media/images/catapults/diagram2.png" alt="mangonel diagram" width="461" height="271"/>
+
+<p class='figdescription'>
+Fig 3: A blocked mangonel, with a launch angle greater than horizontal.
+</p>
+
+<p>
+This will increase the range <em>d</em>. However, by increasing 
+<em>v<sub>y</sub></em>, we decrease <em>v<sub>x</sub></em>, so there must be an 
+optimum angle at which we can make the most of both velocity components. This 
+perfect angle has been proven to be 45&deg;.
+</p>
+
+<p>
+From the diagram above, we can see that when the arm is 
+blocked, the angle &theta; between the vertical and the arm is the same as the 
+angle between the launch velocity and the horizontal.
+</p>
+
+<p>
+We can therefore determine the time of flight and range of the missile:
+</p>
+
+<img src="media/images/catapults/eq13.png" alt="t.o.f and range eqs." width="89" height="106"/>
+
+<p>
+As a mangonel was often used to launch a missile over a wall (rather than at 
+it), it is useful to know the trajectory's maximum height at a given angle. 
+Denoting by <em>h</em> the original height above the ground from which the 
+missile was launched, we find that:
+</p>
+
+<img src="media/images/catapults/eq14.png" alt="max height eq." width="89" height="41"/>
+
+<p>The range at which this occurs is denoted by <em>D</em>:</p>
+
+<img src="media/images/catapults/eq15.png" alt="corresponding range" width="68" height="23"/>
+
+<p>
+where <em>t<sub>y</sub></em> is the time at which the maximum height is 
+reached.
+</p>
+
+<footer>
+
+<img id='timeline' src="media/images/timeline/Timeline6.png" alt="Timeline"/>
+
+<a href="index.html#introduction" title="Introduction" style="position: absolute; left: 15.95%; top: 3.57%; width: 16.74%; height: 8.73%; z-index: 2;"></a>
+<a href="physics.html" title="Physics" style="position: absolute; left: 34.42%; top: 3.74%; width: 9.65%; height: 9.45%; z-index: 2;"></a>
+<a href="quiz.html" title="Quiz" style="position: absolute; left: 45.7%; top: 4.1%; width: 6.03%; height: 9.63%; z-index: 2;"></a>
+<a href="conclusion.html" title="Conclusion" style="position: absolute; left: 53.25%; top: 4.1%; width: 14.32%; height: 7.66%; z-index: 2;"></a>
+<a href="references.html" title="References" style="position: absolute; left: 69.41%; top: 3.92%; width: 14.69%; height: 8.2%; z-index: 2;"></a>
+<a href="ballistae.html" title="Ballistae" style="position: absolute; left: 0.94%; top: 22.46%; width: 15.22%; height: 77.54%; z-index: 2;"></a>
+<a href="catapults.html" title="Catapults" style="position: absolute; left: 16.37%; top: 22.46%; width: 18.1%; height: 77.54%; z-index: 2;"></a>
+<a href="trebuchets.html" title="Trebuchets" style="position: absolute; left: 34.94%; top: 22.64%; width: 15.27%; height: 77.36%; z-index: 2;"></a>
+<a href="cannon.html" title="Cannon" style="position: absolute; left: 50.63%; top: 22.82%; width: 15.22%; height: 77.01%; z-index: 2;"></a>
+<a href="rocketry.html" title="Rocketry" style="position: absolute; left: 66.05%; top: 22.99%; width: 17.94%; height: 76.83%; z-index: 2;"></a>
+<a href="railguns.html" title="Railguns" style="position: absolute; left: 84.21%; top: 23.17%; width: 15.22%; height: 77.01%; z-index: 2;"></a>
+
+</footer>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+header {
+  position: relative;
+  left: 12.5%;
+  width: 75%;
+  top: 0;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+} 
+
+img#timeline {
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+
+img#timelinebottom {
+  position: relative;
+  width: 150%;
+  left:-25%;
+}
+
+body {
+  text-align: center;
+}
+
+div#body {
+  background-color: white;
+  position: relative;
+  left: 25%;
+  width: 50%;
+}
+
+.maths {
+  position: absolute;
+  left: 100%;
+  width: 45%;
+  height: 2.5vw;
+  border: 0.2vw solid black;
+  border-left: 0.3vw solid black;
+  border-bottom: 0.3vw solid black;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+div#titlebar {
+  border-bottom: 0.2vw solid black;
+  background-color: red;
+  height: 2.5vw;
+}
+
+img#leftskull {
+  float: left;
+  vertical-align: center;
+}
+
+img#rightskull {
+  float: right;
+}

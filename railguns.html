@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" />
+<link rel="stylesheet" href="style/pagelayout.css" />
+<link rel="stylesheet" href="style/textstyles.css" />
+
+<script src="scripts/railguns.js"></script>
+
+<title>Railguns</title>
+
+</head>
+
+<body>
+
+<header>
+<img id='timeline' src="media/images/timeline/Timeline6.png" alt="Timeline"/>
+
+<a href="index.html#introduction" title="Introduction" style="position: absolute; left: 15.95%; top: 3.57%; width: 16.74%; height: 8.73%; z-index: 2;"></a>
+<a href="physics.html" title="Physics" style="position: absolute; left: 34.42%; top: 3.74%; width: 9.65%; height: 9.45%; z-index: 2;"></a>
+<a href="quiz.html" title="Quiz" style="position: absolute; left: 45.7%; top: 4.1%; width: 6.03%; height: 9.63%; z-index: 2;"></a>
+<a href="conclusion.html" title="Conclusion" style="position: absolute; left: 53.25%; top: 4.1%; width: 14.32%; height: 7.66%; z-index: 2;"></a>
+<a href="references.html" title="References" style="position: absolute; left: 69.41%; top: 3.92%; width: 14.69%; height: 8.2%; z-index: 2;"></a>
+<a href="ballistae.html" title="Ballistae" style="position: absolute; left: 0.94%; top: 22.46%; width: 15.22%; height: 77.54%; z-index: 2;"></a>
+<a href="catapults.html" title="Catapults" style="position: absolute; left: 16.37%; top: 22.46%; width: 18.1%; height: 77.54%; z-index: 2;"></a>
+<a href="trebuchets.html" title="Trebuchets" style="position: absolute; left: 34.94%; top: 22.64%; width: 15.27%; height: 77.36%; z-index: 2;"></a>
+<a href="cannon.html" title="Cannon" style="position: absolute; left: 50.63%; top: 22.82%; width: 15.22%; height: 77.01%; z-index: 2;"></a>
+<a href="rocketry.html" title="Rocketry" style="position: absolute; left: 66.05%; top: 22.99%; width: 17.94%; height: 76.83%; z-index: 2;"></a>
+<a href="railguns.html" title="Railguns" style="position: absolute; left: 84.21%; top: 23.17%; width: 15.22%; height: 77.01%; z-index: 2;"></a>
+</header>
+
+<div id='body'>
+
+<h3>Railguns</h3>
+
+<h4>History</h4>
+
+<p>
+The earliest form of a railgun dates back to 1918 when French inventor Louis 
+Octave Fauchon-Villeplee developed a cannon that used electromagnetic forces to 
+fire a projectile. The first theoretically viable railgun (one which could be 
+used in battle) was proposed by the research team of Nazi Germany during the 
+second world war. It produced a muzzle velocity of 2000 m/s using a projectile 
+of explosives weighing 0.5 kg.
+</p>
+
+<img src="media/images/modernweapons/railguns/germanrailgun.png" alt="German railgun" width="343" height="463"/>
+
+<p class='figdescription'>
+Fig 1: The schematic of the German railgun.
+</p>
+
+<p>
+After the war ended and all of Nazi Germany’s secrets were lain bare, many 
+scientists took interest in the field. Throughout the middle of the century 
+work was done in engineering motors that could power such weapons as it was 
+stated in a 1947 report that the power required for such a weapon was 
+equivalent to that required to power half of the city of Chicago.
+</p>
+
+<p>
+In recent years, the US military have pioneered this field and have recently 
+installed such weapons on some battleships, most notably the Zumwalt class 
+destroyer. The weapon can reportedly fire a 3.2kg projectile at 2.4 kilometres 
+per second, with a maximum range of over 100 nautical miles.
+</p>
+
+<img src="media/images/modernweapons/railguns/zumwalt.png" alt="Zumwalt destroyer" width="411" height="257"/>
+
+<p class='figdescription'>
+Fig 2: The Zumwalt class destroyer.
+</p>
+
+<p>
+This weapon is at the cutting edge of military technology and it is still in 
+its early stages of development and has not yet reached its maximum 
+capabilities.
+</p>
+
+<p>Here it is in action:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hyoaOOAtDI0?ecver=1" frameborder="0" allowfullscreen></iframe>
+
+<p>
+Throughout this section, a knowledge of field lines will be assumed. If you 
+would like to refresh your memory, see 
+<a href="https://en.wikipedia.org/wiki/Field_line">here</a>
+</p>
+
+<h3>Physics</h3>
+
+<h4>The Process</h4>
+
+<p>
+In its most basic form, the railgun is comprised of two long rails connected by 
+a projectile. The rails have current running through them in opposite 
+directions such that the projectile also has a current running through it. 
+These currents create a magnetic field that drives the projectile along the 
+rails, propelling it at high speeds out of the ‘barrel’. Figure 1 displays this 
+process below:
+</p>
+
+<img src="media/images/modernweapons/railguns/railgunoverview.png" alt="railgun overview" width="541" height="329"/>
+
+<p class='figdescription'>Fig 3: The overview of a railgun.</p>
+
+<h4>Amp&egrave;re's Law (Maxwell's Fourth Equation)</h4>
+
+<p>
+The Maxwell equations are a set of four equations that simply describe all 
+electromagnetic interactions and processes that occur in the universe. They 
+have stood the test of time and experiment. In fact they even inspired research 
+into the field of relativity by Einstein. However, Maxwell did not find 
+the equations himself. Rather, he collated the four equations and wrote them 
+down in a manner that meant that they were consistent with each other. The 
+last of the equations was discovered by Andr&eacute;-Marie Amp&egrave;re. In 
+its most general form it is:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq1.png" alt="Amp&egrave;re's law" width="120" height="39"/>
+
+<p>
+Here <em><u>B</u></em> is the magnetic field, <em><u>J</u></em> is the current 
+density, <em><u>E</u></em> is the electric field and the greek letters are just 
+fundamental constants. This equation states that the magnetic field around a 
+closed loop is proportional to the current and the rate of change of electric 
+field through the loop. This is clearer if we show it in its integral form:
+</p>
+
+<div class='maths' id='maths1'>
+<div id='titlebar' onclick=change1()>
+<img id='leftskull' src="media/images/skull.png" alt="skull" height="100%"/>
+
+<img id='rightskull' src="media/images/skull.png" alt="skull" height="100%"/>
+
+<h6 id='boxtitle1'>Integral Form (click to expand)</h6>
+
+</div>
+
+<p>
+If both sides are integrated with respect to a surface 
+<em><u>S</u></em>. Then the following is obtained:
+</p>
+
+<p>
+The lefthand side can be rewritten using Stokes' theorem that states that:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq2.png" alt="Stokes' thm." width="123" height="38"/>
+
+<p>
+The righthand side is the line integral of the magnetic field around the 
+boundary of <em>S</em>, <em>&part;S</em>. Thus, in integral form, Maxwell's 
+fourth equation is:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq3.png" alt="MIV IF" width="188" height="39"/>
+
+</div>
+
+<img src="media/images/modernweapons/railguns/eq3.png" alt="MIV IF" width="188" height="39"/>
+
+<p>
+Take an infinitely long wire with current <em><u>I</u></em>. 
+The equation above states that a magnetic field is produced in a closed loop 
+around the wire. See Figure 4:
+</p>
+
+<img src="media/images/modernweapons/railguns/wirefield.png" alt="Wire field diagram" width="307" height="351"/>
+
+<p class='figdescription'>
+Fig 4: The magnetic field produced by a wire.
+</p>
+
+<p>
+The law also describes the magnetic field produced produced by a capacitor 
+(two parallel plates with opposing charge densities.)
+</p>
+
+<img src="media/images/modernweapons/railguns/capacitor.png" alt="Capacitor diagram" width="571" height="243"/>
+
+<p class='figdescription'>
+Fig 5: A capacitor.
+</p>
+
+<p>
+As the current flows into one side of the capacitor, the total charge on the 
+plate increases, increasing the electric field applied to the other plate. This 
+change in electric field over time produces a magnetic field as described by 
+the last term in Maxwell 4.
+</p>
+
+<p>
+This law is useful in describing the magnetic field produced by the ‘rails’ of 
+the railgun. Each rail of the railgun carries a constant current of <em>I</em> 
+amps, but in opposite directions. There is no change in the electric field in 
+the wire thus the last term of Maxwell’s fourth equation disappears.
+</p>
+
+<img src="media/images/modernweapons/railguns/eq4.png" alt="M IV without final term" width="153" height="47"/>
+
+<p>
+Now choose the path as a circular loop of radius <em>r</em> that encloses only 
+one of the rails and lies perpendicular to the rail.
+</p>
+
+<img src="media/images/modernweapons/railguns/looppath.png" alt="Path diagram" width="352" height="353"/>
+
+<p class='figdescription'>
+Fig 6: Imaginary loop around one of the rails. The shape of the cross section 
+of the rail enclosed is irrelevant to the final result.
+</p>
+
+<p>The right-hand integral is 
+simply the current enclosed by the loop since it is the sum of the product of 
+the current per unit and some small element of area:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq5.png" alt="Enclosed current" width="87" height="37"/>
+
+<p>
+This result is true for any current or sum of currents through a closed loop. 
+Now to evaluate the left-hand side of the equation. The loop has been carefully 
+chosen such that the magnetic field always lies tangent. Thus, since the loop 
+is a circle:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq6.png" alt="Bdl eq." width="122" height="35"/>
+
+<p>
+So the direction of the magnetic field produced by a wire is given by the 
+right-hand rule and the magnitude at distance <em>r</em> is given by:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq7.png" alt="Final eq." width="53" height="36"/>
+
+<h4>The Lorentz Force</h4>
+
+<p>
+The Lorentz force describes the force experienced by a moving charged particle 
+through an electric and magnetic field. For a particle of charge <em>q</em> 
+moving with velocity <em><u>v</u></em>, the force exerted by the fields is:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq8.png" alt="Lorentz force" width="89" height="22"/>
+
+<p>
+Take the case of a constant current flowing along a wire in a constant magnetic 
+field. Consider only the magnetic field, as the electric field is what causes 
+the current to flow. Thus, the force on each electron is:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq9.png" alt="Force on electrons" width="73" height="21"/>
+
+<p>
+Where <em><u>v</u></em> is the drift velocity of each electron (it is actually 
+an average, but in this case can be taken to be equivalent for all electrons.) 
+For each section of wire <em>dl</em> of cross-sectional area <em>A</em>, the 
+total force that acts upon it is the sum of the forces acting upon all the 
+electrons contained within it. Assume that there is a constant number of 
+electrons per volume <em>n</em>, then the number of electrons within the volume 
+is:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq10.png" alt="Electrons per volume" width="51" height="20"/>
+
+<p>
+Thus the force experienced by a section of the wire can be written as:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq11.png" alt="Force eq." width="228" height="20"/>
+
+<p>
+These expressions are obtained using the definition of current density.
+</p>
+
+<p>
+In the railgun, the current that moves through the magnetic field is the 
+current in the projectile. For clarity, take the following coordinate system:
+</p>
+
+<img src="media/images/modernweapons/railguns/coordinates.png" alt="Coordinate system" width="744" height="356"/>
+
+<p class='figdescription'>
+Fig 7: The coordinate system used to describe the railgun.
+</p>
+
+<p>
+In this system the rails are parallel to the x-axis and the projectile is 
+parallel to the y-axis. Assume that at the moment the current is turned on, the 
+rails and the projectile have current <em>I<sub>0</sub></em>, which flows in 
+the positive y direction along the projectile.
+</p>
+
+<p>
+In this case the 'wire' is always perpendicular to the magnetic field generated 
+by the current through the rails, so the force on some small section of the 
+projectile is:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq12.png" alt="Force element" width="67" height="21"/>
+
+<p>
+Now assume that the rails have width <em>2R</em> such that in the coordinate 
+system previously defined, a projectile of length <em>L</em> begins at 
+<em>y = R</em> and ends at <em>y = L + R</em>:
+</p>
+
+<img src="media/images/modernweapons/railguns/crosssection.png" alt="Cross section" width="568" height="312"/>
+
+<p class='figdescription'>
+Fig 8: The cross-section of a railgun with the assumed coordinate system.
+</p>
+
+<p>
+Inserting the expression calculated for the magnetic field due to the current 
+in the rails into the equation for the force on some small element of the 
+projectile one obtains an expression to calculate the total force on the 
+projectile (It is assumed that the projectile is narrow enough that the 
+magnetic field does not change direction along its width):
+</p>
+
+<img src="media/images/modernweapons/railguns/eq13.png" alt="Force element" width="" height=""/>
+
+<p>
+This expression combines the field from both rails. Now simply integrate to 
+calculate the total force on the projectile at the moment the current is 
+turned on:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq14.png" alt="total force" width="256" height="37"/>
+
+<h4>Back EMF</h4>
+
+<p>
+As shown above a charged particle moving in a magnetic field experiences a 
+force. Consider a wire experiencing this force:
+</p>
+
+<img src="media/images/modernweapons/railguns/forcefield.png" alt="Force field" width="321" height="370" />
+
+<p class='figdescription'>
+Fig 9: The Lorentz force on a wire in a uniform magnetic field.
+</p>
+
+<p>
+The wire is forced to the left. This causes the electrons in the wire to have 
+some velocity in the left-hand direction. Using the right-hand rule with this 
+new velocity and the magnetic field there is now a force on the electrons 
+pointing downwards! This is called a back electromotive force and works to 
+reduce the current in the wire. This is the mathematical form of Lenz’s Law:
+</p>
+
+<p>
+<em>The direction of any magnetic induction effect is such as to oppose the 
+cause of the field.</em>
+</p>
+
+<p>The equation describing the motion is found to be:</p>
+
+<div class='maths' id='maths2'>
+
+<div id='titlebar' onclick=change2()>
+
+<img id='leftskull' src="media/images/skull.png" alt="skull" height="100%"/>
+
+<img id='rightskull' src="media/images/skull.png" alt="skull" height="100%"/>
+
+<h6 id='boxtitle2'>Solution Derivation (click to expand)</h6>
+
+</div>
+
+<p>
+Using the Lorentz force for the case of the moving projectile, one 
+finds that the force on the electrons is:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq15.png" alt="Force on electrons" width="79" height="26"/>
+
+<p>Thus the electric field on an electron is:</p>
+
+<img src="media/images/modernweapons/railguns/eq16.png" alt="Electric field" width="71" height="22"/>
+
+<p>
+Using the system as shown in Figure 5 the electric field at a point y is given 
+by:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq17.png" alt="E field at a point" width="171" height="39" />
+
+<p>
+Thus, the potential across the projectile is:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq18.png" alt="Potential" width="218" height="74"/>
+
+<p>
+Now assume that the resistance of the circuit is &gamma; when the projectile is 
+positioned at <em>x = 0</em>. Also assume that the rails have linear 
+resistivity &phi;. Then the total resistance of the loop at some point 
+<em>x</em> is:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq19.png" alt="Resistance" width="67" height="28"/>
+
+<p>Using Ohm's law the current produced by the moving projectile is:</p>
+
+<img src="media/images/modernweapons/railguns/eq20.png" alt=" Projectile current" width="125" height="39"/>
+
+<p>
+By adding this term to the current, one can model how the current around the 
+loop varies as the projectile moves. Since they are in opposite directions, 
+<em>I<sub>p</sub></em> picks up a negative sign:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq21.png" alt="Total current" width="188" height="40"/>
+
+<p>
+Now that the current has been modelled, we can also model the force. Using the 
+equation derived previously for the force experienced with a constant current, but 
+replacing the current with the new model one finds that the force experienced 
+is:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq22.png" alt="Force" width="228" height="43"/>
+
+<p>
+This equation is obviously very difficult to solve analytically, so numerical 
+methods shall be adopted. It is a second order non-linear differential equation 
+of the form:
+</p>
+
+<img src="media/images/modernweapons/railguns/eq23.gif" alt="Diff. Eq." width="136" height="49"/>
+
+<p>where <em>a</em>, <em>b</em>, <em>c</em> and <em>d</em> are constants.</p>
+
+</div>
+
+<img src="media/images/modernweapons/railguns/eq23.gif" alt="Diff. Eq." width="136" height="49"/>
+
+<p>where <em>a</em>, <em>b</em>, <em>c</em> and <em>d</em> are constants.</p>
+
+<p>
+The resulting motion of the particle from this back EMF is shown in Figure 7:
+</p>
+
+<img src="media/images/modernweapons/railguns/graph0.png" alt="position and speed" width="522" height="420"/>
+
+<p class='figdescription'>
+Fig 10: The position and speed of a projectile in a railgun.
+</p>
+
+<p>
+Note that the speed does not seem to tail off. This is because air resistance 
+has been ignored. Thus in this model, the longer the railgun is, the larger the 
+muzzle velocity. With air resistance taken into account, this is not the case, 
+and a terminal velocity can be seen to be present:
+</p>
+
+<img src="media/images/modernweapons/railguns/graph1.png" alt="position and speed with air resistance" width="606" height="452"/>
+
+<p class='figdescription'>
+Fig 11: The position and speed of a projectile in a railgun with air resistance.
+</p>
+
+<footer>
+
+<img id='timeline' src="media/images/timeline/Timeline6.png" alt="Timeline"/>
+
+<a href="index.html#introduction" title="Introduction" style="position: absolute; left: 15.95%; top: 3.57%; width: 16.74%; height: 8.73%; z-index: 2;"></a>
+<a href="physics.html" title="Physics" style="position: absolute; left: 34.42%; top: 3.74%; width: 9.65%; height: 9.45%; z-index: 2;"></a>
+<a href="quiz.html" title="Quiz" style="position: absolute; left: 45.7%; top: 4.1%; width: 6.03%; height: 9.63%; z-index: 2;"></a>
+<a href="conclusion.html" title="Conclusion" style="position: absolute; left: 53.25%; top: 4.1%; width: 14.32%; height: 7.66%; z-index: 2;"></a>
+<a href="references.html" title="References" style="position: absolute; left: 69.41%; top: 3.92%; width: 14.69%; height: 8.2%; z-index: 2;"></a>
+<a href="ballistae.html" title="Ballistae" style="position: absolute; left: 0.94%; top: 22.46%; width: 15.22%; height: 77.54%; z-index: 2;"></a>
+<a href="catapults.html" title="Catapults" style="position: absolute; left: 16.37%; top: 22.46%; width: 18.1%; height: 77.54%; z-index: 2;"></a>
+<a href="trebuchets.html" title="Trebuchets" style="position: absolute; left: 34.94%; top: 22.64%; width: 15.27%; height: 77.36%; z-index: 2;"></a>
+<a href="cannon.html" title="Cannon" style="position: absolute; left: 50.63%; top: 22.82%; width: 15.22%; height: 77.01%; z-index: 2;"></a>
+<a href="rocketry.html" title="Rocketry" style="position: absolute; left: 66.05%; top: 22.99%; width: 17.94%; height: 76.83%; z-index: 2;"></a>
+<a href="railguns.html" title="Railguns" style="position: absolute; left: 84.21%; top: 23.17%; width: 15.22%; height: 77.01%; z-index: 2;"></a>
+
+</footer>
+
+</div>
+
+</body>
+
+</html>
